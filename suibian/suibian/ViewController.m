@@ -24,6 +24,10 @@
     [self.view addSubview:lab];
     
     
+    
+    UILabel *lab1 = [[UILabel alloc] init];
+    
+    [self.view addSubview:lab1];
 }
 
 - (void)didReceiveMemoryWarning {

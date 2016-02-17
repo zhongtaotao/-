@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078C2FB51C74046400BEF6F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 078C2FB41C74046400BEF6F9 /* main.m */; };
+		078C2FB81C74046400BEF6F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 078C2FB71C74046400BEF6F9 /* AppDelegate.m */; };
+		078C2FBB1C74046400BEF6F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078C2FBA1C74046400BEF6F9 /* ViewController.m */; };
+		078C2FBE1C74046400BEF6F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078C2FBC1C74046400BEF6F9 /* Main.storyboard */; };
+		078C2FC11C74046400BEF6F9 /* suibian.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 078C2FBF1C74046400BEF6F9 /* suibian.xcdatamodeld */; };
+		078C2FC31C74046400BEF6F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078C2FC21C74046400BEF6F9 /* Assets.xcassets */; };
+		078C2FC61C74046400BEF6F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078C2FC41C74046400BEF6F9 /* LaunchScreen.storyboard */; };
+		078C2FD11C74046400BEF6F9 /* suibianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 078C2FD01C74046400BEF6F9 /* suibianTests.m */; };
+		078C2FDC1C74046400BEF6F9 /* suibianUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 078C2FDB1C74046400BEF6F9 /* suibianUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		078C2FCD1C74046400BEF6F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078C2FA81C74046400BEF6F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 078C2FAF1C74046400BEF6F9;
+			remoteInfo = suibian;
+		};
+		078C2FD81C74046400BEF6F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078C2FA81C74046400BEF6F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 078C2FAF1C74046400BEF6F9;
+			remoteInfo = suibian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078C2FB01C74046400BEF6F9 /* suibian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suibian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		078C2FB41C74046400BEF6F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		078C2FB61C74046400BEF6F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		078C2FB71C74046400BEF6F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		078C2FB91C74046400BEF6F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		078C2FBA1C74046400BEF6F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		078C2FBD1C74046400BEF6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		078C2FC01C74046400BEF6F9 /* suibian.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = suibian.xcdatamodel; sourceTree = "<group>"; };
+		078C2FC21C74046400BEF6F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		078C2FC51C74046400BEF6F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		078C2FC71C74046400BEF6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078C2FCC1C74046400BEF6F9 /* suibianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suibianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		078C2FD01C74046400BEF6F9 /* suibianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = suibianTests.m; sourceTree = "<group>"; };
+		078C2FD21C74046400BEF6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078C2FD71C74046400BEF6F9 /* suibianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suibianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		078C2FDB1C74046400BEF6F9 /* suibianUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = suibianUITests.m; sourceTree = "<group>"; };
+		078C2FDD1C74046400BEF6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		078C2FAD1C74046400BEF6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078C2FC91C74046400BEF6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078C2FD41C74046400BEF6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078C2FA71C74046400BEF6F9 = {
+			isa = PBXGroup;
+			children = (
+				078C2FB21C74046400BEF6F9 /* suibian */,
+				078C2FCF1C74046400BEF6F9 /* suibianTests */,
+				078C2FDA1C74046400BEF6F9 /* suibianUITests */,
+				078C2FB11C74046400BEF6F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		078C2FB11C74046400BEF6F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078C2FB01C74046400BEF6F9 /* suibian.app */,
+				078C2FCC1C74046400BEF6F9 /* suibianTests.xctest */,
+				078C2FD71C74046400BEF6F9 /* suibianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		078C2FB21C74046400BEF6F9 /* suibian */ = {
+			isa = PBXGroup;
+			children = (
+				078C2FB61C74046400BEF6F9 /* AppDelegate.h */,
+				078C2FB71C74046400BEF6F9 /* AppDelegate.m */,
+				078C2FB91C74046400BEF6F9 /* ViewController.h */,
+				078C2FBA1C74046400BEF6F9 /* ViewController.m */,
+				078C2FBC1C74046400BEF6F9 /* Main.storyboard */,
+				078C2FC21C74046400BEF6F9 /* Assets.xcassets */,
+				078C2FC41C74046400BEF6F9 /* LaunchScreen.storyboard */,
+				078C2FC71C74046400BEF6F9 /* Info.plist */,
+				078C2FBF1C74046400BEF6F9 /* suibian.xcdatamodeld */,
+				078C2FB31C74046400BEF6F9 /* Supporting Files */,
+			);
+			path = suibian;
+			sourceTree = "<group>";
+		};
+		078C2FB31C74046400BEF6F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				078C2FB41C74046400BEF6F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		078C2FCF1C74046400BEF6F9 /* suibianTests */ = {
+			isa = PBXGroup;
+			children = (
+				078C2FD01C74046400BEF6F9 /* suibianTests.m */,
+				078C2FD21C74046400BEF6F9 /* Info.plist */,
+			);
+			path = suibianTests;
+			sourceTree = "<group>";
+		};
+		078C2FDA1C74046400BEF6F9 /* suibianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				078C2FDB1C74046400BEF6F9 /* suibianUITests.m */,
+				078C2FDD1C74046400BEF6F9 /* Info.plist */,
+			);
+			path = suibianUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		078C2FAF1C74046400BEF6F9 /* suibian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078C2FE01C74046400BEF6F9 /* Build configuration list for PBXNativeTarget "suibian" */;
+			buildPhases = (
+				078C2FAC1C74046400BEF6F9 /* Sources */,
+				078C2FAD1C74046400BEF6F9 /* Frameworks */,
+				078C2FAE1C74046400BEF6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = suibian;
+			productName = suibian;
+			productReference = 078C2FB01C74046400BEF6F9 /* suibian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		078C2FCB1C74046400BEF6F9 /* suibianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078C2FE31C74046400BEF6F9 /* Build configuration list for PBXNativeTarget "suibianTests" */;
+			buildPhases = (
+				078C2FC81C74046400BEF6F9 /* Sources */,
+				078C2FC91C74046400BEF6F9 /* Frameworks */,
+				078C2FCA1C74046400BEF6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078C2FCE1C74046400BEF6F9 /* PBXTargetDependency */,
+			);
+			name = suibianTests;
+			productName = suibianTests;
+			productReference = 078C2FCC1C74046400BEF6F9 /* suibianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		078C2FD61C74046400BEF6F9 /* suibianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078C2FE61C74046400BEF6F9 /* Build configuration list for PBXNativeTarget "suibianUITests" */;
+			buildPhases = (
+				078C2FD31C74046400BEF6F9 /* Sources */,
+				078C2FD41C74046400BEF6F9 /* Frameworks */,
+				078C2FD51C74046400BEF6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078C2FD91C74046400BEF6F9 /* PBXTargetDependency */,
+			);
+			name = suibianUITests;
+			productName = suibianUITests;
+			productReference = 078C2FD71C74046400BEF6F9 /* suibianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		078C2FA81C74046400BEF6F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zjtd;
+				TargetAttributes = {
+					078C2FAF1C74046400BEF6F9 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					078C2FCB1C74046400BEF6F9 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 078C2FAF1C74046400BEF6F9;
+					};
+					078C2FD61C74046400BEF6F9 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 078C2FAF1C74046400BEF6F9;
+					};
+				};
+			};
+			buildConfigurationList = 078C2FAB1C74046400BEF6F9 /* Build configuration list for PBXProject "suibian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 078C2FA71C74046400BEF6F9;
+			productRefGroup = 078C2FB11C74046400BEF6F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				078C2FAF1C74046400BEF6F9 /* suibian */,
+				078C2FCB1C74046400BEF6F9 /* suibianTests */,
+				078C2FD61C74046400BEF6F9 /* suibianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		078C2FAE1C74046400BEF6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C2FC61C74046400BEF6F9 /* LaunchScreen.storyboard in Resources */,
+				078C2FC31C74046400BEF6F9 /* Assets.xcassets in Resources */,
+				078C2FBE1C74046400BEF6F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078C2FCA1C74046400BEF6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078C2FD51C74046400BEF6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078C2FAC1C74046400BEF6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C2FBB1C74046400BEF6F9 /* ViewController.m in Sources */,
+				078C2FB81C74046400BEF6F9 /* AppDelegate.m in Sources */,
+				078C2FB51C74046400BEF6F9 /* main.m in Sources */,
+				078C2FC11C74046400BEF6F9 /* suibian.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078C2FC81C74046400BEF6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C2FD11C74046400BEF6F9 /* suibianTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078C2FD31C74046400BEF6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C2FDC1C74046400BEF6F9 /* suibianUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		078C2FCE1C74046400BEF6F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 078C2FAF1C74046400BEF6F9 /* suibian */;
+			targetProxy = 078C2FCD1C74046400BEF6F9 /* PBXContainerItemProxy */;
+		};
+		078C2FD91C74046400BEF6F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 078C2FAF1C74046400BEF6F9 /* suibian */;
+			targetProxy = 078C2FD81C74046400BEF6F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		078C2FBC1C74046400BEF6F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078C2FBD1C74046400BEF6F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		078C2FC41C74046400BEF6F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078C2FC51C74046400BEF6F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		078C2FDE1C74046400BEF6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		078C2FDF1C74046400BEF6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		078C2FE11C74046400BEF6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = suibian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zjtd.com.suibian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		078C2FE21C74046400BEF6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = suibian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zjtd.com.suibian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		078C2FE41C74046400BEF6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = suibianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zjtd.com.suibianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/suibian.app/suibian";
+			};
+			name = Debug;
+		};
+		078C2FE51C74046400BEF6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = suibianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zjtd.com.suibianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/suibian.app/suibian";
+			};
+			name = Release;
+		};
+		078C2FE71C74046400BEF6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = suibianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zjtd.com.suibianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = suibian;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		078C2FE81C74046400BEF6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = suibianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zjtd.com.suibianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = suibian;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078C2FAB1C74046400BEF6F9 /* Build configuration list for PBXProject "suibian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078C2FDE1C74046400BEF6F9 /* Debug */,
+				078C2FDF1C74046400BEF6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078C2FE01C74046400BEF6F9 /* Build configuration list for PBXNativeTarget "suibian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078C2FE11C74046400BEF6F9 /* Debug */,
+				078C2FE21C74046400BEF6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		078C2FE31C74046400BEF6F9 /* Build configuration list for PBXNativeTarget "suibianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078C2FE41C74046400BEF6F9 /* Debug */,
+				078C2FE51C74046400BEF6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		078C2FE61C74046400BEF6F9 /* Build configuration list for PBXNativeTarget "suibianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078C2FE71C74046400BEF6F9 /* Debug */,
+				078C2FE81C74046400BEF6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		078C2FBF1C74046400BEF6F9 /* suibian.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				078C2FC01C74046400BEF6F9 /* suibian.xcdatamodel */,
+			);
+			currentVersion = 078C2FC01C74046400BEF6F9 /* suibian.xcdatamodel */;
+			path = suibian.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 078C2FA81C74046400BEF6F9 /* Project object */;
+}
